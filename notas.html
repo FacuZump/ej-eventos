@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main id="contenedor">
+        <form action="">
+            <h2>aplicación de notas</h2>
+            <div class="creaNotas" id="creaNotas">
+                <h2>Nueva nota</h2>
+                <div class="inputNotas">
+                    <div class="input">
+                        <input type="text" placeholder="Titulo" name="" id="titulo" required>
+                        <textarea id="texto" name="" placeholder="Escriba su nota aqui!" cols="21" rows="4"
+                            required></textarea>
+                    </div>
+                    <div class="buttons">
+                        <input type="submit" id="guardar" value="Guardar" required>
+                        <input type="submit" id="borrar" value="Borrar" required>
+                    </div>
+                </div>
+                <label for="">Buscar notas -> </label>
+                <input id="searchInput" type="text">
+                <label for="">Realizadas -></label>
+                <input type="checkbox" name="" id="realizadas">
+            </div>
+        </form>
+        <section id="contenedor-notas">
+        </section>
+    </main>
+    <script src="./assets/js/notas.js"></script>
+</body>
+
+</html>

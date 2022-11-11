@@ -1,0 +1,124 @@
+#contenedor {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+
+}
+
+td {
+    border: 2px solid black;
+    width: 10rem;
+}
+
+form div {
+    padding: .5rem;
+}
+
+.divisas input {
+    border: 0;
+    width: 10rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.divisas label {
+    width: 10rem;
+    text-align: end;
+}
+
+.divisas {
+    background-color: rgba(0, 0, 0, 0.854);
+    color: white;
+}
+
+#contenedor-notas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.creaNotas {
+    text-align: start;
+    background-color: rgb(248, 190, 17);
+    width: 50rem;
+    height: 22rem;
+    padding: 1rem;
+}
+
+
+.inputNotas {
+    display: flex;
+    margin-top: 2rem;
+    gap: .7rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: .7rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    gap: .7rem;
+    padding: 3rem .5rem 0 .5rem;
+}
+
+.contenedorInput {
+    display: flex;
+    flex-direction: column;
+}
+
+#nota {
+    height: 10vh;
+}
+
+#guardar {
+    color: white;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#borrar {
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.realizada p{
+text-decoration: line-through;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    height: 30vh;
+    text-align: start;
+    background-color: rgb(138, 138, 240);
+    padding: .5rem;
+}
+
+.card p {
+    height: 4rem;
+}
+
+#borrarNota {
+    text-align: center;
+    background-color: red;
+    border: 0;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+}
